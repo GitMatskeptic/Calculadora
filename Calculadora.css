@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+body {
+  font-family: 'Oxanium', cursive;
+    min-height: 100px;
+    background-image: url('https://i.gifer.com/IjTZ.gif');
+    background-color: rgb(114, 114, 114);
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+
+h2 {
+    text-align: center;
+    text-align-last: center;
+    color:#ffffff;
+    margin: 0 0 5px;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    height: 100vh;
+  }
+
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+
+  .page-logo {
+    width: 200px;
+    
+  }
+
+  .GitMatskeptic-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+  .formulario{
+    display: center;
+    flex-direction: column;
+    padding: 0 100px;
+    margin-top: 25px;
+    gap: 10px;
+  }
+
+  .formulario input:not(.button){
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .formulario input:focus-visible{
+    outline: none;
+  }
+
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  .LeButton {
+    
+    font-family: 'Oxanium', cursive;
+    min-height: 20vh;
+    text-align: center;
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 50px;
+    color: #ffffff;
+    align-items: center;
+  }
+
+  .container {
+    height: 25vh;
+    border: 1px;
+    min-width: 50px;
+    min-height: 100px;
+  }
+  
+  div {
+    margin: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-position: absolute;
+    font-family: 'Oxanium', cursive;
+    line-height: center;
+  
+    
+  }
+
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  .submit {
+    text-align: center;
+    background-position: absolute;
+    color: #ffffff;
+    font-family: 'Oxanium', cursive;
+  }
+
+
+  .notaInserida {
+  min-height: 10px;
+  text-align: center;
+  border-radius: 10px;
+  text-emphasis-color: red;
+}
+  
+   .footer{
+    font-size: small;
+    color: #ffffff;
+  }
