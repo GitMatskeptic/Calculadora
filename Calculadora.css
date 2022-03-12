@@ -115,6 +115,13 @@ h2 {
     border-radius: 5px;
   }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
   .submit {
     text-align: center;
     background-position: absolute;
